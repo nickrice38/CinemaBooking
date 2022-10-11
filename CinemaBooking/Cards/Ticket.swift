@@ -20,9 +20,14 @@ struct Ticket: View {
         VStack(spacing: 0) {
             VStack(spacing: 4) {
                 Text(title)
+                    .font(.body)
                     .fontWeight(.bold)
+                    .shadow(color: .black, radius: 12)
                 
                 Text(subtitle)
+                    .font(.subheadline)
+                    .shadow(color: .black, radius: 12)
+                    .multilineTextAlignment(.center)
             }
             .padding(EdgeInsets(top: 20, leading: 30, bottom: 0, trailing: 30))
             .frame(width: 250, height: 325, alignment: .top)
