@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C4F252BE2906F97300C5102F /* TabData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F252BD2906F97300C5102F /* TabData.swift */; };
+		C4F252C02906FA9300C5102F /* CustomTabBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4F252BF2906FA9300C5102F /* CustomTabBar.swift */; };
 		C4FEEC2228F4850F005A477D /* CinemaBookingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEEC2128F4850F005A477D /* CinemaBookingApp.swift */; };
 		C4FEEC2428F4850F005A477D /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4FEEC2328F4850F005A477D /* ContentView.swift */; };
 		C4FEEC2628F48510005A477D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C4FEEC2528F48510005A477D /* Assets.xcassets */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C4F252BD2906F97300C5102F /* TabData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabData.swift; sourceTree = "<group>"; };
+		C4F252BF2906FA9300C5102F /* CustomTabBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTabBar.swift; sourceTree = "<group>"; };
 		C4FEEC1E28F4850F005A477D /* CinemaBooking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CinemaBooking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C4FEEC2128F4850F005A477D /* CinemaBookingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CinemaBookingApp.swift; sourceTree = "<group>"; };
 		C4FEEC2328F4850F005A477D /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +106,7 @@
 			children = (
 				C4FEEC3028F4858B005A477D /* StatusUI.swift */,
 				C4FEEC3128F4858B005A477D /* CircleBackground.swift */,
+				C4F252BF2906FA9300C5102F /* CustomTabBar.swift */,
 			);
 			path = UI;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 			children = (
 				C4FEEC3328F4858B005A477D /* PosterData.swift */,
 				C4FEEC3428F4858B005A477D /* TicketData.swift */,
+				C4F252BD2906F97300C5102F /* TabData.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -214,8 +220,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				C4FEEC4228F4858B005A477D /* TimeButton.swift in Sources */,
+				C4F252BE2906F97300C5102F /* TabData.swift in Sources */,
 				C4FEEC4628F485A6005A477D /* utils.swift in Sources */,
 				C4FEEC2428F4850F005A477D /* ContentView.swift in Sources */,
+				C4F252C02906FA9300C5102F /* CustomTabBar.swift in Sources */,
 				C4FEEC2228F4850F005A477D /* CinemaBookingApp.swift in Sources */,
 				C4FEEC3F28F4858B005A477D /* RoundButton.swift in Sources */,
 				C4FEEC4028F4858B005A477D /* CircleButton.swift in Sources */,
